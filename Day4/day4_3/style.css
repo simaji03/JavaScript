@@ -1,0 +1,41 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    background-color: #f4f7fa;
+}
+
+h1 {
+    text-align: center;
+    color: #2563eb;
+}
+
+#user-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 16px;
+}
+
+.user-card {
+    background-color: white;
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #00000015;
+}
+
+.user-card h3 {
+    color: #1d4ed8;
+}
+
+.user-card p {
+    overflow-wrap: anywhere;
+}
+
+#loading {
+    text-align: center;
+}
+
+#error {
+    color: red;
+    text-align: center;
+}

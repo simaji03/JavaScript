@@ -174,7 +174,7 @@ const updatedEmployee = {
 console.log(employee);
 console.log(updatedEmployee);
 
-//Section D
+//Section E
 const students = [
     {
         id: 1,
