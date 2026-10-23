@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persistent Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div class="container">
+        <h1>My Task Manager</h1>
+        <p class="subtitle">Organize your daily tasks</p>
+
+        <div class="task-input">
+            <input
+                type="text"
+                id="taskInput"
+                placeholder="Enter a new task..."
+                aria-label="New task"
+            >
+            <button id="addButton">Add Task</button>
+        </div>
+
+        <p id="message" aria-live="polite"></p>
+
+        <ul id="taskList"></ul>
+
+        <p id="taskCount">Total tasks: 0</p>
+    </div>
+
+</body>
+</html>
